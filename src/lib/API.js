@@ -20,12 +20,12 @@ function getAddress(latitude, longitude) {
 }
 
 function getEmbedURL(lat, lon) {
-    return `https://maps.darksky.net/@emoji,${lat},${lon},11?domain=&quot;+encodeURIComponent(window.location.href)+&quot;&amp;auth=1552089016_3624c23c92e79156219d8144bcec3006&amp;embed=true&amp;timeControl=false&amp;fieldControl=false&amp;defaultField=emoji`;
+  return `https://maps.darksky.net/@emoji,${lat},${lon},11?domain=&quot;+encodeURIComponent(window.location.href)+&quot;&amp;auth=1552089016_3624c23c92e79156219d8144bcec3006&amp;embed=true&amp;timeControl=false&amp;fieldControl=false&amp;defaultField=emoji`;
 }
 
 export default {
   getAddress,
   getForecast,
   getCoordinates,
-  getEmbedURL
+  getEmbedURL,
 };
